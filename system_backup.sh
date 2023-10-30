@@ -10,7 +10,7 @@
 
 # Set variables
 backup_dir="<localMountedFolder>" # Replace with the local folder to mount the NFS share into
-nfs_server="192.168.1.29"
+nfs_server="<nfsServerIP>"
 nfs_share="<remoteNFSFolder>" # Replace with the NFS folder to put the backup files into
 partition="/dev/sdX"  # Replace with the correct partition device
 backup_limit=5 # How many backup files before deleting old ones
